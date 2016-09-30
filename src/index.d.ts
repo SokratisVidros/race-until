@@ -1,1 +1,1 @@
-export { default as raceUntil, timebomb } from './raceUntil';
+export { default as default, timebomb } from './raceUntil';
