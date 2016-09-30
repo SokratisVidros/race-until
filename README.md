@@ -1,6 +1,6 @@
-# raceUntil
-[![](https://travis-ci.org/SokratisVidros/raceUntil.svg?branch=master)](https://travis-ci.org/SokratisVidros/raceUntil)
-[![](https://badge.fury.io/js/raceUntil.svg)](https://www.npmjs.com/package/raceUntil)
+# race-until
+[![](https://travis-ci.org/SokratisVidros/race-until.svg?branch=master)](https://travis-ci.org/SokratisVidros/race-until)
+[![](https://badge.fury.io/js/race-until.svg)](https://www.npmjs.com/package/race-until)
 
 Race a promise against a time bomb promise.
 
