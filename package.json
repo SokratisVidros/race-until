@@ -14,7 +14,7 @@
     "timeout",
     "timebomb"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "jsnext:main": "index.es6.js",
   "babel": {
     "presets": [
