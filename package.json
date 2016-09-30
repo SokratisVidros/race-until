@@ -16,6 +16,7 @@
   ],
   "main": "dist/index.js",
   "jsnext:main": "index.es6.js",
+  "typings": "src/index",
   "babel": {
     "presets": [
       "es2015",
