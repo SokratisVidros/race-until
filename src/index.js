@@ -1,1 +1,1 @@
-export { default as default, timebomb } from './raceUntil.js';
+export { raceUntil, timebomb } from './race-until.js';
