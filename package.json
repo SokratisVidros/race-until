@@ -1,6 +1,6 @@
 {
   "name": "race-until",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Race a promise against a time bomb promise.",
   "repository": "SokratisVidros/race-until",
   "author": "Sokratis Vidros <sokratis.vidros@gmail.com.com>",
