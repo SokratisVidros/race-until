@@ -33,7 +33,12 @@
       "no-param-reassign": 0,
       "import/no-mutable-exports": 0,
       "import/no-extraneous-dependencies": 0,
-      "no-useless-rename": ["error", { "ignoreExport": true }]
+      "no-useless-rename": [
+        "error",
+        {
+          "ignoreExport": true
+        }
+      ]
     }
   },
   "dependencies": {
@@ -70,6 +75,6 @@
     "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
     "test:cover": "babel-node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha",
     "build": "node tools/build",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   }
 }
