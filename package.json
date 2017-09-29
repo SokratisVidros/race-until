@@ -71,10 +71,11 @@
   },
   "scripts": {
     "lint": "eslint src test",
+    "pretest": "npm run lint",
     "test": "mocha --compilers js:babel-register",
     "test:watch": "mocha --compilers js:babel-register --reporter min --watch",
     "test:cover": "babel-node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha",
     "build": "node tools/build",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm test && npm run build"
   }
 }
