@@ -4,11 +4,10 @@
 
 Race a promise against a time bomb promise.
 
-`
-const {raceUntil} = require('race-until);
+```js
+const {raceUntil} = require('race-until');
 raceUntil(promise, timeout = 3000, timeoutResponse = 'timeout')
-
-`
+```
 
 # Usage
 
