@@ -2,10 +2,6 @@ import { expect } from 'chai';
 import { raceUntil, timebomb } from '../src/race-until';
 
 describe('raceUntil', () => {
-  it('throws error if promise is not provided', () => {
-    expect(raceUntil).to.throw(Error, 'Missing promise option');
-  });
-
   context('when promised is resolved before the timebomb detonates', () => {
     it('returns the value of the resolved promise', done => {
       raceUntil(Promise.resolve('Success')).then(result => {
