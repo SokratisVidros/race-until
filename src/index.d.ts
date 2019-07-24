@@ -1,1 +1,1 @@
-export { raceUntil, timebomb } from './raceUntil';
+export { raceUntil, timebomb } from './race-until';
