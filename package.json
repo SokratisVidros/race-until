@@ -18,11 +18,11 @@
   "jsnext:main": "index.esm.js",
   "typings": "src/index",
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
+    "@babel/cli": "^7.8.4",
     "@babel/core": "^7.5.5",
     "@babel/node": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "@babel/register": "^7.5.5",
+    "@babel/register": "^7.9.0",
     "babel-core": "^6.26.3",
     "chai": "^3.5.0",
     "del": "^2.2.0",
