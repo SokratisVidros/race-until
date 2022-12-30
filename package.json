@@ -30,7 +30,7 @@
     "eslint-config-airbnb": "^11.1.0",
     "eslint-plugin-import": "^2.18.2",
     "istanbul": "^1.0.0-alpha.2",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "rollup": "^1.17.0"
   },
   "scripts": {
